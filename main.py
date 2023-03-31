@@ -8,13 +8,13 @@ import os
 conn_bank = psycopg2.connect(database = "bank",
                         host =     "de-edu-db.chronosavant.ru",
                         user =     "bank_etl",
-                        password = "bank_etl_password",
+                        password = "********",
                         port =     "5432")
 
 conn_edu = psycopg2.connect(database = "edu",
                         host =     "de-edu-db.chronosavant.ru",
                         user =     "de10",
-                        password = "bilbobaggins",
+                        password = "*********",
                         port =     "5432")
 
 #Отключение автокоммита
